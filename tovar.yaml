@@ -1,109 +1,84 @@
-<yml_catalog date="2026-01-31 13:22">
-<shop>
-<name>Dar Family</name>
-<company>Tne Best inc.</company>
-<categories>
-<category id="1">Base 1</category>
-<category id="12">Base 2</category>
-<category id="4" parentId="3">Category 4</category>
-<category id="5" parentId="1">Category 5</category>
-<category id="8" parentId="7">Category 8</category>
-<category id="6" parentId="12">Category 6</category>
-<category id="7" parentId="12">Category 7</category>
-</categories>
-<offers>
-<offer id="12346" type="vendor.model" bid="60">
-<sku>662</sku>
-<vendor>Brand</vendor>
-<model>K220Y9</model>
-<typePrefix>Сэндвичница</typePrefix>
-<vendorCode>A1234567B</vendorCode>
-<price>1099</price>
-<categoryId>7</categoryId>
-<picture>http://best.seller.ru/img/device56789.jpg</picture>
-<video>https://www.youtube.com/watch?v=_k55A6DjLw8</video>
-<param name="Мощность">750 Вт</param>
-<param name="Цвет">Черный</param>
-<description>Сэндвичница 2 в 1: можно приготовить как сэндвичи, так и вафли.</description>
-<manufacturer_warranty>true</manufacturer_warranty>
-<weight>1.03</weight>
-<dimensions>20.800/23.500/9.000</dimensions>
-<count>23</count>
-</offer>
-<offer id="M54D555" type="vendor.model" bid="60">
-<sku>685658</sku>
-<typePrefix>Бутербродница</typePrefix>
-<model>AS45678</model>
-<vendor>Brand</vendor>
-<price>2039</price>
-<categoryId>7</categoryId>
-<picture>https://static.detmir.st/media_out/570/125/3125570/1500/0.jpg</picture>
-<video>https://www.youtube.com/watch?v=_k55A6DjLw8</video>
-<param name="Мощность">150 Вт</param>
-<param name="Цвет">Благородный серый</param>
-<description>Бутербродница, которая поджаривает будерброды.</description>
-<barcode>9876543260</barcode>
-<weight>1.03</weight>
-<dimensions>20.800/23.500/9.000</dimensions>
-<count>23</count>
-</offer>
-<offer id="9012" bid="80">
-<sku>655</sku>
-<name>Мороженица Fresh-Trend 3816</name>
-<vendor>Fresh-Trend</vendor>
-<vendorCode>A1234567B</vendorCode>
-<price>8990</price>
-<categoryId>8</categoryId>
-<picture>https://static.detmir.st/media_out/570/125/3125570/1500/0.jpg</picture>
-<picture>https://static.detmir.st/media_out/570/125/3125570/1500/1.jpg</picture>
-<video>https://www.youtube.com/watch?v=_k55A6DjLw8</video>
-<description>Хотите полакомиться свежим домашним мороженым? Такую возможность подарит мороженица Fresh-Trend. Следуя инструкции и советам в ней, можно получить нежное лакомство, не похожее на обычное «магазинное»</description>
-<barcode>4601546021299</barcode>
-<param name="Цвет">Розовый</param>
-<param name="Размер">170x80</param>
-<weight>1.03</weight>
-<dimensions>20.800/23.500/9.000</dimensions>
-</offer>
-<offer id="94592" bid="80">
-<sku>65845</sku>
-<name>Мороженица Brand 3811</name>
-<vendor>Brand</vendor>
-<vendorCode>A1234567B</vendorCode>
-<price>8990</price>
-<categoryId>8</categoryId>
-<picture>https://p-i-t.kz/uploads/store/product/73fcb5cbc80197e8f6ca95493fd8113b.jpg</picture>
-<picture>https://p-i-t.kz/uploads/store/product/9b1af165ae84d9c88be4d4103dfbbdf6.jpg</picture>
-<video>https://www.youtube.com/watch?v=_k55A6DjLw8</video>
-<description>
-<![CDATA[ <h3>Мороженица Brand 3811</h3> <p>Это прибор, который придётся по вкусу всем любителям десертов и сладостей, ведь с его помощью вы сможете делать вкусное домашнее мороженое из натуральных ингредиентов.</p> ]]>
-</description>
-<country_of_origin>Китай</country_of_origin>
-<barcode>4601546021298</barcode>
-<param name="Цвет">белый</param>
-<param name="Размер">170x80</param>
-<condition type="likenew">
-<reason>Повреждена упаковка</reason>
-</condition>
-<weight>1.03</weight>
-<dimensions>20.800/23.500/9.000</dimensions>
-</offer>
-<offer id="12346" type="vendor.model" bid="60">
-<sku>55554</sku>
-<typePrefix>Бутербродница</typePrefix>
-<model>SM-H100W</model>
-<vendor>Ardesto</vendor>
-<price>2039</price>
-<categoryId>7</categoryId>
-<picture>https://www.technodom.kz/media/catalog/product/cache/1366e688ed42c99cd6439df4031862c6/8/a/8a75bfe02af72a03711165fe2ca229dbe268832d_232947_1.jpg</picture>
-<video>https://www.youtube.com/watch?v=_k55A6DjLw8</video>
-<param name="Мощность">150 Вт</param>
-<param name="Цвет">Белый</param>
-<description>Антипригарное покрытие обеспечивает легкую очистку пластин и возможность приготовления без добавления масла, а для удобной транспортировки предусмотрено ручку с фиксатором. Индикаторы на верхней панели отражают готовность устройства к приготовлению.</description>
-<barcode>9876543260</barcode>
-<weight>1.03</weight>
-<dimensions>20.800/23.500/9.000</dimensions>
-<count>23</count>
-</offer>
-</offers>
-</shop>
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-01-30T12:00:00+06:00">
+  <shop>
+    <name>Мой Магазин</name>
+    <company>ООО "Мой Магазин"</company>
+    <categories>
+      <category id="1">Бытовая техника</category>
+      <category id="2">Продукты питания</category>
+      <category id="3">Электроника</category>
+    </categories>
+    <offers>
+      <offer id="1001" available="true" bid="10" categoryId="1">
+        <name>Мороженица Brand 3811</name>
+        <vendor>Brand</vendor>
+        <model>3811</model>
+        <price>12000.00</price>
+        <currencyId>KZT</currencyId>
+        <picture>https://example.com/images/icecream.jpg</picture>
+        <description>Электрическая мороженица для домашнего использования. Вместимость 1.5 литра.</description>
+        <weight>3.200</weight>
+        <dimensions>30/25/25</dimensions>
+        <param name="Цвет">Белый</param>
+        <param name="Мощность">200 Вт</param>
+        <manufacturer_warranty>true</manufacturer_warranty>
+      </offer>
+
+      <offer id="1002" available="true" bid="15" categoryId="2">
+        <name>Куриное филе охлажденное, 1 кг</name>
+        <vendor>Птица КZ</vendor>
+        <price>2500.00</price>
+        <currencyId>KZT</currencyId>
+        <picture>https://example.com/images/chicken.jpg</picture>
+        <description>Свежее куриное филе, охлажденное, подходит для любых блюд.</description>
+        <weight>1.000</weight>
+        <dimensions>20/10/5</dimensions>
+        <param name="Происхождение">Казахстан</param>
+        <manufacturer_warranty>false</manufacturer_warranty>
+      </offer>
+
+      <offer id="1003" available="true" bid="8" categoryId="2">
+        <name>Рис басмати, 1 кг</name>
+        <vendor>Рис КZ</vendor>
+        <price>1200.00</price>
+        <currencyId>KZT</currencyId>
+        <picture>https://example.com/images/rice.jpg</picture>
+        <description>Длиннозерный рис басмати высшего качества.</description>
+        <weight>1.000</weight>
+        <dimensions>15/10/5</dimensions>
+        <param name="Происхождение">Индия</param>
+        <manufacturer_warranty>false</manufacturer_warranty>
+      </offer>
+
+      <offer id="1004" available="true" bid="12" categoryId="3">
+        <name>Наушники Brand X100</name>
+        <vendor>Brand</vendor>
+        <model>X100</model>
+        <price>8500.00</price>
+        <currencyId>KZT</currencyId>
+        <picture>https://example.com/images/headphones.jpg</picture>
+        <description>Беспроводные наушники с шумоподавлением.</description>
+        <weight>0.250</weight>
+        <dimensions>20/15/5</dimensions>
+        <param name="Цвет">Черный</param>
+        <param name="Тип">Беспроводные</param>
+        <manufacturer_warranty>true</manufacturer_warranty>
+      </offer>
+
+      <offer id="1005" available="true" bid="5" categoryId="3">
+        <name>Фитнес-браслет FitPro</name>
+        <vendor>FitPro</vendor>
+        <model>2026</model>
+        <price>4500.00</price>
+        <currencyId>KZT</currencyId>
+        <picture>https://example.com/images/fitpro.jpg</picture>
+        <description>Фитнес-браслет с измерением пульса и шагов.</description>
+        <weight>0.050</weight>
+        <dimensions>10/2/1</dimensions>
+        <param name="Цвет">Синий</param>
+        <param name="Водонепроницаемость">Да</param>
+        <manufacturer_warranty>true</manufacturer_warranty>
+      </offer>
+    </offers>
+  </shop>
 </yml_catalog>
